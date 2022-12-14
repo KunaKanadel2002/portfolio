@@ -34,7 +34,7 @@ const Navbar = () => {
             <ul>
               {['home', 'about', 'work', 'skills', 'contact'].map((item) => (
                 <li key={item}>
-                  <a href={`#${item}`} onClick={() => setToggle(false)}>
+                  <a href={`${item}`} onClick={() => setToggle(false)}>
                     {item}
                   </a>
                 </li>
